@@ -6,6 +6,7 @@ import FilterPanel from "../../components/filterPanel";
 import { Link } from 'react-router-dom';
 
 function Home() {
+  // eslint-disable-next-line no-unused-vars
   const [filteredProducts, setFilteredProducts] = useState(products);
   const [card, setCard] = useState([])
   useEffect(() => {
